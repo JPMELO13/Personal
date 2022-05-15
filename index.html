@@ -29,9 +29,12 @@
 </head>
 
 <body>
+  <!-- DIV BACKGROUND INÍCIO - IMAGEM RESPONSIVA-->
   <div class="container-fluid"
     style=" background-image: url('img/inicioBackground2.jpg'); height: 100vh; background-size: cover; background-position: center; ">
-    <nav style="width: 80vw " class="p-0 mx-auto navbar navbar-light bg-light bg-opacity-75 navbar-expand-sm fixed-top rounded mt-3">
+
+    <!-- NAVBAR -->
+    <nav style="width: 80vw " class="p-0 mx-auto navbar navbar-light bg-light  navbar-expand-sm fixed-top rounded mt-3">
       <div class="container-fluid">
 
         <a class="navbar-brand" href="index.html"><img src="img/logo.svg" style="height: 50px" alt="" /></a>
@@ -73,31 +76,31 @@
       </div>
     </nav>
 
-
-    <div style="height: 100vh; padding-top: 15vh;">
-      <section class=" section">
-        <div class=" container-fluid" style="width: 75vw">
-          <div class="row gap-3">
-            <div class=" card col-sm-12 col-md-6 my-4 bg-light bg-opacity-75 ">
-              <div class="card-body ">
-                <h1 class="title ">Hello World</h1>
-                <p id="teste">Seja bem-vindo ao meu site pessoal!</p>
-              </div>
-            </div>
-            <div class=" card col-sm-12 col-md-6 ms-auto my-4 bg-light bg-opacity-75">
-              <div class="card-body">
-                <h1 class="title">Hello World</h1>
-                <p id="teste">Seja bem-vindo ao meu site pessoal!</p>
-              </div>
-            </div>
-          </div>
-
+    <!-- SEÇÃO INÍCIO -->
+    <section class="container-fluid overflow-auto scrollbar-primary " style="height: 100vh  ; padding-top: 92px;width: 75vw">
+      <div class="row bg-light bg-opacity-75 rounded" style="--bs-columns:2 ">
+        <!-- <div class="card col-md-6 col-sm-12 bg-light bg-opacity-75"> -->
+          <p class="text-center text-md-end   display-1 fw-bold">Bem-Vindo!</p>
+        <!-- </div> -->
+        
+        
+        <div class="col-md-5 col-sm-12 m-0 p-0" >
+          <img src="img/profile.png" class="img-fluid" alt="">
         </div>
-      </section>
-    </div>
-    <div style="height: 100vh; padding-top: 15vh; background-color: lightblue;">
-    </div>
+
+      </div>
+    </section>
   </div>
+  <!-- SEÇÃO SOBRE MIM -->
+  <div class="container-fluid d-flex" style="height: 100vh; padding-top: 15vh; background-color: lightblue;">
+  </div>
+  <!-- SEÇÃO PORTFÓLIO -->
+  <div class="container-fluid d-flex" style="height: 100vh; padding-top: 15vh; background-color: yellowgreen;">
+  </div>
+  <!-- SEÇÃO CONTATO -->
+  <div class="container-fluid d-flex" style="height: 100vh; padding-top: 15vh; background-color: rebeccapurple;">
+  </div>
+
 </body>
 
 </html>

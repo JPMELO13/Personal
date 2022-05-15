@@ -1,12 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-#teste{
-    
-    font-family: marvin, sans-serif;
-font-style: normal;
-font-weight: 400;
-}
+*::-webkit-scrollbar {
+    display:none;
+  }
 
 #bg-image{
     background-image: url(https://images.pexels.com/photos/3829230/pexels-photo-3829230.jpeg);
