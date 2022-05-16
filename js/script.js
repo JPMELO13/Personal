@@ -1,11 +1,11 @@
 var ativo = document.getElementsByClassName("active");
 
-let inicioMark = document.getElementById("inicio-mark")
-let sobremimMark = document.getElementById("sobremim-mark")
-let portfolioMark = document.getElementById("portfolio-mark")
-let contatoMark = document.getElementById("contato-mark")
+let inicioMark = document.getElementById("inicioMark");
+let sobremimMark = document.getElementById("sobremimMark");
+let portfolioMark = document.getElementById("portfolioMark");
+let contatoMark = document.getElementById("contatoMark");
 
-let mostradorAtivo = document.getElementById("mostrador-ativo")
+let mostradorAtivo = document.getElementById("mostrador-ativo");
 
 
 class ClassWatcher {
