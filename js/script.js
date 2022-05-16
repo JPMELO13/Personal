@@ -1,5 +1,4 @@
 var ativo = document.getElementsByClassName("active");
-console.log(ativo);
 
 let inicioMark = document.getElementById("inicio-mark")
 let sobremimMark = document.getElementById("sobremim-mark")
@@ -42,7 +41,6 @@ class ClassWatcher {
                     this.lastClassState = currentClassState
                     if(currentClassState) {
                         this.display.innerHTML=this.targetNode.text
-                        console.log(this.display)
                     }
                 }
             }
