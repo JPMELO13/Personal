@@ -30,75 +30,87 @@
 
 <body>
   <!-- DIV BACKGROUND INÍCIO - IMAGEM RESPONSIVA-->
-  <div class="container-fluid"
-    style=" background-image: url('img/inicioBackground2.jpg'); height: 100vh; background-size: cover; background-position: center; ">
+  
 
-    <!-- NAVBAR -->
-    <nav style="width: 80vw " class="p-0 mx-auto navbar navbar-light bg-light  navbar-expand-sm fixed-top rounded mt-3">
-      <div class="container-fluid">
+  <!-- NAVBAR -->
+  <nav class="w-75 p-0 mx-auto navbar navbar-light bg-light  navbar-expand-sm fixed-top rounded mt-3" id="navbar1">
+    <div class="container-fluid">
 
-        <a class="navbar-brand" href="index.html"><img src="img/logo.svg" style="height: 50px" alt="" /></a>
+      <a class="navbar-brand" href="index.html"><img src="img/logo.svg" id="logo-nav" alt="" /></a>
 
-        <span class="navbar-toggler border-0 nav-link active" aria-current="page">Início</span>
+      <!-- <span class="navbar-toggler border-0 nav-link" aria-current="page">Início</span> -->
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
-            <img src="img/logo.svg" style="height: 70px" alt="" />
-            <div>
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                João Pedro Melo
-              </h5>
-              <h6 class="offcanvas-title">Personal Website</h6>
-            </div>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <img src="img/logo.svg" id="logo-offcanvas" alt="" />
+          <div>
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              João Pedro Melo
+            </h5>
+            <h6 class="offcanvas-title">Personal Website</h6>
           </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Início</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Sobre mim</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Portfólio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contato</a>
-              </li>
-            </ul>
-          </div>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav  justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#inicio">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobremim">Sobre mim</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfólio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </nav>
-
+    </div>
+  </nav>
+  <div data-bs-spy="scroll" data-bs-target="#navbar1" data-bs-offset="0" class="scrollspy-format m-0" tabindex="0" style="position:relative ; overflow-y:scroll ;">
     <!-- SEÇÃO INÍCIO -->
-    <section class="container-fluid overflow-auto scrollbar-primary " style="height: 100vh  ; padding-top: 92px;width: 75vw">
-      <div class="row bg-light bg-opacity-75 rounded" style="--bs-columns:2 ">
-        <!-- <div class="card col-md-6 col-sm-12 bg-light bg-opacity-75"> -->
-          <p class="text-center text-md-end   display-1 fw-bold">Bem-Vindo!</p>
-        <!-- </div> -->
-        
-        
-        <div class="col-md-5 col-sm-12 m-0 p-0" >
-          <img src="img/profile.png" class="img-fluid" alt="">
-        </div>
+    <div class="bg-image image-intro" id="image-intro">
+      <div class="secao container overflow-auto" id="inicio">
+
+
+
+
+
+
+
+
+
+
+
 
       </div>
-    </section>
-  </div>
-  <!-- SEÇÃO SOBRE MIM -->
-  <div class="container-fluid d-flex" style="height: 100vh; padding-top: 15vh; background-color: lightblue;">
-  </div>
-  <!-- SEÇÃO PORTFÓLIO -->
-  <div class="container-fluid d-flex" style="height: 100vh; padding-top: 15vh; background-color: yellowgreen;">
-  </div>
-  <!-- SEÇÃO CONTATO -->
-  <div class="container-fluid d-flex" style="height: 100vh; padding-top: 15vh; background-color: rebeccapurple;">
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- SEÇÃO SOBRE MIM -->
+    <div class="secao container-fluid d-flex" id="sobremim" style=" background-color: lightblue;">
+    </div>
+    <!-- SEÇÃO PORTFÓLIO -->
+    <div class="secao container-fluid d-flex" id="portfolio" style=" background-color: yellowgreen;">
+    </div>
+    <!-- SEÇÃO CONTATO -->
+    <div class="secao container-fluid d-flex" id="contato" style=" background-color: rebeccapurple;">
+    </div>
   </div>
 
 </body>

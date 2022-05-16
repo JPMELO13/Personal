@@ -3,12 +3,45 @@
 
 *::-webkit-scrollbar {
     display:none;
-  }
+}
 
-#bg-image{
-    background-image: url(https://images.pexels.com/photos/3829230/pexels-photo-3829230.jpeg);
+.bg-image{
     min-height: 100vh;
     min-width: 100vw;
+    background-size: cover;
+    background-position: center;
 }
+
+.secao{
+    height: 100vh;
+    padding-top: 92px;
+    padding-bottom: 16px;
+}
+.scrollspy-format{
+    position: relative;
+    height: 100vh;
+    margin-top: 0.5rem;
+    overflow: scroll;
+}
+.active{
+    font-weight: 700 !important;
+}
+
+
+#image-intro{
+    background-image: url('../img/inicioBackground2.jpg');
+}
+
+#logo-nav{
+    height: 50px;
+}
+
+#logo-offcanvas{
+    height: 70px
+}
+
+
+
+
 
 
