@@ -21,24 +21,21 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 
-  <!-- CDN Bundle JS Bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+  
+
+  
+    
 
 </head>
 
 <body>
-  <!-- DIV BACKGROUND INÍCIO - IMAGEM RESPONSIVA-->
-  
-
   <!-- NAVBAR -->
   <nav class="w-75 p-0 mx-auto navbar navbar-light bg-light  navbar-expand-sm fixed-top rounded mt-3" id="navbar1">
     <div class="container-fluid">
 
       <a class="navbar-brand" href="index.html"><img src="img/logo.svg" id="logo-nav" alt="" /></a>
 
-      <!-- <span class="navbar-toggler border-0 nav-link" aria-current="page">Início</span> -->
+      <span class="navbar-toggler border-0 nav-link" aria-current="page" id="mostrador-ativo">Início</span>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
         aria-controls="offcanvasNavbar">
@@ -58,22 +55,23 @@
         <div class="offcanvas-body">
           <ul class="navbar-nav  justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#inicio">Início</a>
+              <a class="nav-link active" id="inicio-mark" aria-current="page" href="#inicio">Início</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#sobremim">Sobre mim</a>
+              <a class="nav-link" id="sobremim-mark" href="#sobremim">Sobre mim</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfólio</a>
+              <a class="nav-link" id="portfolio-mark" href="#portfolio">Portfólio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contato">Contato</a>
+              <a class="nav-link" id="contato-mark" href="#contato">Contato</a>
             </li>
           </ul>
         </div>
       </div>
     </div>
   </nav>
+  <!-- DIV com setup do scrollspy -->
   <div data-bs-spy="scroll" data-bs-target="#navbar1" data-bs-offset="0" class="scrollspy-format m-0" tabindex="0" style="position:relative ; overflow-y:scroll ;">
     <!-- SEÇÃO INÍCIO -->
     <div class="bg-image image-intro" id="image-intro">
@@ -114,5 +112,12 @@
   </div>
 
 </body>
+
+<!-- Arquivo script JS -->
+<script type="text/javascript" src="./js/script.js"></script>
+<!-- CDN script JS Bundle Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+crossorigin="anonymous"></script>
 
 </html>
