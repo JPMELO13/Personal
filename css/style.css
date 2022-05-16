@@ -13,6 +13,7 @@
 }
 
 .secao{
+    margin: 0;
     height: 100vh;
     padding-top: 92px;
     padding-bottom: 16px;
