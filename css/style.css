@@ -1,8 +1,19 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&family=Tapestry&display=swap');
+/* font-family: 'Klee One', cursive;
+font-family: 'Tapestry', cursive; */
 
 *::-webkit-scrollbar {
     display:none;
+}
+
+*{
+    font-family: 'Klee One', cursive;
+}
+
+span{
+    font-family: 'Tapestry', cursive !important;
+    
+    
 }
 
 .bg-image{
@@ -23,9 +34,10 @@
     height: 100vh;
     margin-top: 0.5rem;
     overflow: scroll;
+    overflow-y:scroll;
 }
 .active{
-    font-weight: 700 !important;
+    font-weight: 600 !important;
 }
 
 .navbar{
@@ -34,7 +46,17 @@
 
 
 #image-intro{
-    background-image: url('../img/inicioBackground2.jpg');
+
+     background-image: url('../img/inicioBackground2.jpg');
+}
+
+#profile{
+    background-image: url('../img/profile.png');
+    height: 70vh;
+    max-width: 65vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 #logo-nav{
