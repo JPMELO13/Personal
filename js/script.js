@@ -3,6 +3,7 @@ var ativo = document.getElementsByClassName("active");
 let inicioMark = document.getElementById("inicioMark");
 let sobremimMark = document.getElementById("sobremimMark");
 let contatoMark = document.getElementById("contatoMark");
+let portfolioMark = document.getElementById("portfolioMark");
 
 let mostradorAtivo = document.getElementById("mostrador-ativo");
 
@@ -39,7 +40,7 @@ class ClassWatcher {
                 if(this.lastClassState !== currentClassState) {
                     this.lastClassState = currentClassState
                     if(currentClassState) {
-                        this.display.innerHTML=this.targetNode.text
+                        this.display.innerText=this.targetNode.text
                     }
                 }
             }
@@ -50,4 +51,5 @@ class ClassWatcher {
 let classWatcherInicio = new ClassWatcher(inicioMark, "active", mostradorAtivo)
 let classWatcherSobreMim = new ClassWatcher(sobremimMark, "active", mostradorAtivo)
 let classWatcherContato = new ClassWatcher(contatoMark, "active", mostradorAtivo)
+let classWatcherPortfolio = new ClassWatcher(portfolioMark, "active", mostradorAtivo)
 
