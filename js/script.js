@@ -38,8 +38,10 @@ class ClassWatcher {
             if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
                 let currentClassState = mutation.target.classList.contains(this.classToWatch)
                 if(this.lastClassState !== currentClassState) {
+                    console.log("chegou aqui1 /n")
                     this.lastClassState = currentClassState
                     if(currentClassState) {
+                        console.log("chegou aqui2 /n")
                         this.display.innerText=this.targetNode.text
                     }
                 }
