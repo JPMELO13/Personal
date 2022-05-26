@@ -7,11 +7,11 @@ font-family: 'Tapestry', cursive; */
 }
 
 *{
-    font-family: 'Klee One', cursive;
+    /* font-family: 'Klee One', cursive; */
 }
 
 span{
-    font-family: 'Tapestry', cursive !important;
+    /* font-family: 'Tapestry', cursive !important; */
     
     
 }
@@ -47,7 +47,7 @@ span{
 
 #image-intro{
 
-     background-image: url('../img/inicioBackground2.jpg');
+     background-image: url('../img/fundo.png');
 }
 
 #profile{
