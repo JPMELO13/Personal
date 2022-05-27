@@ -5,6 +5,8 @@ let sobremimMark = document.getElementById("sobremimMark");
 let contatoMark = document.getElementById("contatoMark");
 let portfolioMark = document.getElementById("portfolioMark");
 
+let teste1Mark = document.getElementById("teste1Mark");
+
 let mostradorAtivo = document.getElementById("mostrador-ativo");
 
 
@@ -50,6 +52,7 @@ class ClassWatcher {
     }
 }
 
+let classWatcherTeste1 = new ClassWatcher(teste1Mark, "active", mostradorAtivo)
 let classWatcherInicio = new ClassWatcher(inicioMark, "active", mostradorAtivo)
 let classWatcherSobreMim = new ClassWatcher(sobremimMark, "active", mostradorAtivo)
 let classWatcherContato = new ClassWatcher(contatoMark, "active", mostradorAtivo)
