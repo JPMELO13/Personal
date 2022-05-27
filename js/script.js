@@ -54,7 +54,8 @@ class ClassWatcher {
 
 let classWatcherTeste1 = new ClassWatcher(teste1Mark, "active", mostradorAtivo)
 let classWatcherInicio = new ClassWatcher(inicioMark, "active", mostradorAtivo)
+let classWatcherPortfolio = new ClassWatcher(portfolioMark, "active", mostradorAtivo)
 let classWatcherSobreMim = new ClassWatcher(sobremimMark, "active", mostradorAtivo)
 let classWatcherContato = new ClassWatcher(contatoMark, "active", mostradorAtivo)
-let classWatcherPortfolio = new ClassWatcher(portfolioMark, "active", mostradorAtivo)
+
 
